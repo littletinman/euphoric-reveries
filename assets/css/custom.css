@@ -1,0 +1,53 @@
+html {
+    font-family: Arial, Verdana, Helvetica !important;
+    text-transform: uppercase;
+}
+
+hgroup {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+hgroup h1 {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#backfill{
+    width:70px;
+}
+
+.card>div>h2 {
+    font-weight: 200;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card>div {
+    padding: 0.5rem;
+}
+
+.featured-card, .card>img, .card, .card>figure, .card figure>img {
+    border-radius: 0.1rem;
+}
+
+.featured-card>div {
+    background-image: none;
+}
+
+p {
+    display: none;
+}
+
+#logo {
+    width: 500px;
+    margin: 0 auto;
+}
+
+main>section, body>menu {
+    margin-bottom: 1.5rem !important;
+}
+
+header {
+    margin-bottom: 0.5rem !important;
+}

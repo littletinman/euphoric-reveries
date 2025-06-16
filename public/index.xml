@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Euphoric Reveries</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Euphoric Reveries</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Euphoric Reveries Photography</copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portraiture</title>
+      <link>http://localhost:1313/portraiture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portraiture/</guid>
+        <media:content url="http://localhost:1313/portraiture/landscape_hu_f8d6920fffeefe3d.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/portraiture/landscape_hu_f8d6920fffeefe3d.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Keepsakes</title>
+      <link>http://localhost:1313/keepsakes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/keepsakes/</guid>
+        <media:content url="http://localhost:1313/keepsakes/landscape_hu_f8d6920fffeefe3d.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/keepsakes/landscape_hu_f8d6920fffeefe3d.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Explorative</title>
+      <link>http://localhost:1313/explorative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/explorative/</guid>
+        <media:content url="http://localhost:1313/explorative/landscape_hu_f8d6920fffeefe3d.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/explorative/landscape_hu_f8d6920fffeefe3d.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
