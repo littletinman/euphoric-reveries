@@ -3,3 +3,7 @@ languageCode = 'en-us'
 title = 'Euphoric Reveries'
 theme = 'gallery'
 copyright = "© Euphoric Reveries Photography"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
