@@ -1,6 +1,12 @@
 html {
-    font-family: Arial, Verdana, Helvetica !important;
+    font-family: "Raleway Dots", sans-serif;
+    font-weight: 400 !important;
+    font-style: normal;
     text-transform: uppercase;
+}
+
+h1, h2, body>footer section:last-of-type {
+    font-weight: 800 !important;
 }
 
 hgroup {
@@ -9,8 +15,7 @@ hgroup {
 }
 
 hgroup h1 {
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: 2rem;
 }
 
 #backfill{
@@ -18,7 +23,6 @@ hgroup h1 {
 }
 
 .card>div>h2 {
-    font-weight: 200;
     text-align: center;
     font-size: 1rem;
 }
@@ -40,8 +44,12 @@ p {
 }
 
 #logo {
-    width: 500px;
     margin: 0 auto;
+}
+
+#logo img {
+    height: 100px;
+    object-fit: contain;
 }
 
 main>section, body>menu {

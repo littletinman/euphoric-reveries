@@ -1,9 +1,13 @@
-baseURL = 'http://euphoricreveries.com'
+baseURL = 'http://royaire.com'
 languageCode = 'en-us'
-title = 'Euphoric Reveries'
+title = 'Royaire Photography'
 theme = 'gallery'
-copyright = "© Euphoric Reveries Photography"
+copyright = "© Royaire Photography"
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params.imageProcessing]
+  cover.enabled=false
+  content.enabled=false
