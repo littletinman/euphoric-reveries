@@ -1,0 +1,25 @@
+{{/* Returns a watermarked master image as a Resource (not HTML) */}}
+{{ $img := .image }}
+{{ $watermark := resources.Get "images/watermark.png" }}
+{{ $result := $img }}
+
+{{ if and $img $watermark }}
+  {{ $scale := default 0.15 .scale }}    <!-- 15% of height -->
+  {{ $opacity := default 0.5 .opacity }} <!-- 50% opacity -->
+
+  {{ $oriented := $img | images.Filter (slice images.AutoOrient) }}
+
+  {{/* Watermark size (avoid upscaling) */}}
+  {{ $wmSize := math.Round (mul $oriented.Height $scale) }}
+  {{ if gt $wmSize $watermark.Height }}
+    {{ $wmSize = $watermark.Height }}
+  {{ end }}
+
+  {{ $resizedWM := $watermark.Resize (printf "%dx png" (int $wmSize)) | images.Filter (slice (images.Opacity $opacity)) }}
+
+  {{/* Final resource with watermark */}}
+  {{ $result = $oriented | images.Filter (slice (images.Overlay $resizedWM 0 (sub $oriented.Height $resizedWM.Height))) }}
+{{ end }}
+
+{{/* Explicitly return as a Resource, not HTML */}}
+{{ return dict "image" $result }}
