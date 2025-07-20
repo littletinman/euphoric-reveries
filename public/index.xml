@@ -12,9 +12,9 @@
       <link>http://localhost:1313/portraiture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portraiture/</guid>
-        <media:content url="http://localhost:1313/portraiture/Jul%2013%202025IAM03090_hu_ce721e6dbbfce8ca.jpg" type="image/jpeg"/>
+        <media:content url="http://localhost:1313/portraiture/Green-IAM00699_hu_d6e7d17576eab569.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/portraiture/Jul%2013%202025IAM03090_hu_ce721e6dbbfce8ca.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/portraiture/Green-IAM00699_hu_d6e7d17576eab569.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
@@ -22,9 +22,9 @@
       <link>http://localhost:1313/headshots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/headshots/</guid>
-        <media:content url="http://localhost:1313/headshots/Jul%2013%202025IAM03067_hu_bd4b5820dea8e7ac.jpg" type="image/jpeg"/>
+        <media:content url="http://localhost:1313/headshots/Blue-IAM03021_hu_e911e0980899418d.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/headshots/Jul%2013%202025IAM03067_hu_bd4b5820dea8e7ac.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/headshots/Blue-IAM03021_hu_e911e0980899418d.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
@@ -32,9 +32,9 @@
       <link>http://localhost:1313/keepsakes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/keepsakes/</guid>
-        <media:content url="http://localhost:1313/keepsakes/Dec%2029%202024DSC00978_hu_2746c7207dcf50f0.jpg" type="image/jpeg"/>
+        <media:content url="http://localhost:1313/keepsakes/Yellow-DSC00978_hu_bf21ed9074f8ce45.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/keepsakes/Dec%2029%202024DSC00978_hu_2746c7207dcf50f0.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/keepsakes/Yellow-DSC00978_hu_bf21ed9074f8ce45.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
   </channel>
